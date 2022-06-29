@@ -1,3 +1,22 @@
+<form action="<%= posts_create_path  %>" class="container">
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input name="title" type="text" class="form-control" id="title" required>
+  </div>
+  <div class="form-group">
+    <label for="content">Content</label>
+    <input name="content" type="text" class="form-control" id="content">
+  </div>
+  <div class="form-group">
+    <label for="image_url">Image_URL</label>
+    <input name="image_url" type="url" class="form-control" id="image_url">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+
+
 <table class="table">
   <thead>
     <tr>
